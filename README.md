@@ -1,5 +1,3 @@
 #smartMe
-
-How to run:
+#How to run:
 python .\main.py -t JobAlert
-python .\main.py -t ContentMonitor

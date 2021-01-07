@@ -1,0 +1,17 @@
+{
+    "job_titles":["developer", "Embedded", "Robotics"],
+	"url":"www.google.com",
+	"search_setup":[
+	{"textFiled":{"filed_name":"xyz","text":"Developer"}},
+	{"textFiled":{"filed_name":"xyz","text":"Stuttgart"}}
+	],
+	
+	"action":[
+	{"search_button":"xyz"}
+	],
+	
+	"search_output":[
+	{"area_name":"xyz"}
+	]
+	
+}

@@ -9,7 +9,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"hi:c:t:",["itask=","oconfig=","trace="])
     except getopt.GetoptError:
-        print 'main.py -t <task_name>'
+        print ('main.py -t <task_name>')
         sys.exit(2)
         
     taskTobeExecute = None
@@ -18,7 +18,7 @@ def main(argv):
          
     for opt, arg in opts:
         if opt == '-h':
-            print 'main.py -t <task_name>'
+            print ('main.py -t <task_name>')
             sys.exit()
         elif opt in ("-t", "--itask"):
             taskTobeExecute = arg     

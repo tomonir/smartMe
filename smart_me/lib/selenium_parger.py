@@ -12,7 +12,7 @@ class SeleniumParger:
         #pass
     def __del__(self):
         self.driver.close()
-        
+
     def setUrl(self,url):
         self.url    = url
         self.driver.get(self.url)
@@ -29,9 +29,19 @@ class SeleniumParger:
             logger.getLogger(__name__).debug('setTextFiled Failed!')
             return
 
-        
+    def enterOnTextFiled (self,_xpath):
+        try:
+            element = self.driver.find_element_by_xpath(_xpath)
+            element.send_keys(Keys.RETURN)
+        except NoSuchElementException:
+            logger.getLogger(__name__).debug( _xpath + ' Not found !')
+            return    
+        except:
+            logger.getLogger(__name__).debug('enterOnTextFiled Failed!')
+            return
+
    
-    def clickOntheButton(self,_xpath):
+    def clickOntheButton(self,_xpath):# not working
         try:
             element = self.driver.find_element_by_xpath(_xpath)
             element.click()

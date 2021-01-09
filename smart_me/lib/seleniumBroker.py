@@ -24,13 +24,16 @@ class textFiled(Command):
         print (self.fields['text'])
         self.selinum_parger.setTextFiled(self.fields['filed_name'],self.fields['text'])     
         
-class search_button(Command):
+class action(Command):
     def __init__(self,fields,selinum_parger):
         super(self.__class__, self).__init__(fields,selinum_parger)
                     
     def process(self):
-        print (self.fields['filed_name'])
-        self.selinum_parger.clickOntheButton(self.fields['filed_name'])
+        print (self.fields['action_type'])
+        if (self.fields['action_type']=="clickOntheButton"):
+            self.selinum_parger.clickOntheButton(self.fields['filed_name'])
+        elif (self.fields['action_type']=="enterOnTextFiled"):
+            self.selinum_parger.enterOnTextFiled(self.fields['filed_name'])            
           
 class output_area(Command):
     def __init__(self,fields,selinum_parger):
@@ -86,7 +89,7 @@ class SeleniumBroker:
                     textFiled(fileds[filed],selinum_parger).process()                    
                     
     def __prepareAction(self,fileds,selinum_parger):
-            search_button(fileds,selinum_parger).process()
+        action(fileds,selinum_parger).process()
                     
                                                     
     def __prepareOutput(self,fileds,selinum_parger):

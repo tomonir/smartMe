@@ -1,0 +1,9 @@
+1610189561433	geckodriver	INFO	Listening on 127.0.0.1:53699
+1610189561460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilektjmFm"
+1610189566636	Marionette	INFO	Listening on port 46563
+1610189566675	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610189580991	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31

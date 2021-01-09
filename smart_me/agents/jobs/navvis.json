@@ -2,12 +2,14 @@
     "job_titles":["developer", "Embedded", "Robotics"],
 	"url":"https://navvis-jobs.personio.de/?hsCtaTracking=26333b88-950c-4995-a1dd-cb249acf7cc4%7Cd338afba-9b1f-4bea-a8b6-8ff63ac940db",
 	"search_setup":[
-	{"textFiled":{"filed_name":"//*[@id='searchjob']","text":"Software Devloper"}}
+	{"textFiled":{"filed_name":"//*[@id='searchjob']","text":"Developer"}}
 	],
 	
 	"action":{"filed_name":"//*[@id='searchsubmit']"},
-        "search_output":{"area_name":"//*[@id='all']"}
 	
+	"search_output":{"area_name":"//*[@id='all']"}
+	
+
 	
 }
 

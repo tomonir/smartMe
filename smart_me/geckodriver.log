@@ -23,3 +23,76 @@ webdriverClickElement@chrome://marionette/content/interaction.js:182:31
 1610192247499	Marionette	INFO	Listening on port 36299
 1610192247577	Marionette	WARN	TLS certificate errors will be ignored for this session
 1610192260557	Marionette	INFO	Stopped listening on port 36299
+1610207117063	geckodriver	INFO	Listening on 127.0.0.1:50807
+1610207117070	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKLNU4Y"
+1610207121238	Marionette	INFO	Listening on port 36267
+1610207121283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610207124057	Marionette	INFO	Stopped listening on port 36267
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610207220733	geckodriver	INFO	Listening on 127.0.0.1:50211
+1610207220739	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegh4lJ0"
+1610207225191	Marionette	INFO	Listening on port 33539
+1610207225262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610207229117	Marionette	INFO	Stopped listening on port 33539
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610207354965	geckodriver	INFO	Listening on 127.0.0.1:51751
+1610207354971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilect6c9v"
+1610207359238	Marionette	INFO	Listening on port 37509
+1610207359287	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610207361919	Marionette	INFO	Stopped listening on port 37509
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610207592298	geckodriver	INFO	Listening on 127.0.0.1:48585
+1610207592305	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7XUzYQ"
+1610207596522	Marionette	INFO	Listening on port 38123
+1610207596640	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610207600275	Marionette	INFO	Stopped listening on port 38123
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610207923687	geckodriver	INFO	Listening on 127.0.0.1:47601
+1610207923694	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5RMcg3"
+1610207927884	Marionette	INFO	Listening on port 44571
+1610207927935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610207930168	Marionette	INFO	Stopped listening on port 44571
+1610208010845	geckodriver	INFO	Listening on 127.0.0.1:40903
+1610208010853	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZtk2lj"
+1610208015121	Marionette	INFO	Listening on port 39777
+1610208015169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610208018578	Marionette	INFO	Stopped listening on port 39777
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610208098157	geckodriver	INFO	Listening on 127.0.0.1:42989
+1610208098164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoec22b"
+1610208102622	Marionette	INFO	Listening on port 35483
+1610208102697	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610208105687	Marionette	INFO	Stopped listening on port 35483
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610208184089	geckodriver	INFO	Listening on 127.0.0.1:57525
+1610208184097	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerD0z1u"
+1610208188664	Marionette	INFO	Listening on port 36845
+1610208188711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610208191819	Marionette	INFO	Stopped listening on port 36845
+1610208335572	geckodriver	INFO	Listening on 127.0.0.1:38807
+1610208335580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7Z0zTI"
+1610208339757	Marionette	INFO	Listening on port 40015
+1610208339801	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610208352703	Marionette	INFO	Stopped listening on port 40015
+1610208654015	geckodriver	INFO	Listening on 127.0.0.1:51537
+1610208654021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRf8pls"
+1610208658501	Marionette	INFO	Listening on port 43913
+1610208658564	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1610208662003	Marionette	INFO	Stopped listening on port 43913
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610208807948	geckodriver	INFO	Listening on 127.0.0.1:47227
+1610208807956	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebFyv3b"
+1610208812308	Marionette	INFO	Listening on port 33873
+1610208812375	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1610208815045	Marionette	INFO	Stopped listening on port 33873
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1610208998903	geckodriver	INFO	Listening on 127.0.0.1:50847
+1610208998910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4eWedw"
+1610209003155	Marionette	INFO	Listening on port 41849
+1610209003234	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 203: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 196: Error: Invalid autocomplete selectedIndex
+1610209007256	Marionette	INFO	Stopped listening on port 41849
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined

@@ -30,18 +30,17 @@ class action(Command):
                     
     def process(self):
         print (self.fields['action_type'])
-        if (self.fields['action_type']=="clickOntheButton"):
-            self.selinum_parger.clickOntheButton(self.fields['filed_name'])
-        elif (self.fields['action_type']=="enterOnTextFiled"):
-            self.selinum_parger.enterOnTextFiled(self.fields['filed_name'])            
+        print (self.fields['filed_name'])
+        self.selinum_parger.setActionFiled(self.fields['action_type'],self.fields['filed_name'])
+          
           
 class output_area(Command):
     def __init__(self,fields,selinum_parger):
         super(self.__class__, self).__init__(fields,selinum_parger)
                     
     def process(self):
-        print (self.fields['area_name']+"<<")
-        return self.selinum_parger.getResult(self.fields['area_name'])    
+        print (self.fields['area_name'])
+        self.selinum_parger.setResultFiled(self.fields['area_name'])   
 
         
 
@@ -70,16 +69,24 @@ class SeleniumBroker:
             logger.getLogger(__name__).debug('search_setup NOT FOUND!')
             
         try:
-            print (config["action"])
+            #print (config["action"])
             self.__prepareAction(config["action"],self.myseleniumParger)
         except:
             logger.getLogger(__name__).debug('action NOT FOUND!')
             
         try:
-            return self.__prepareOutput(config["search_output"],self.myseleniumParger)
+            self.__prepareOutput(config["search_output"],self.myseleniumParger)
         except:
             logger.getLogger(__name__).debug('search_output NOT FOUND!')
-            return "" 
+            return ""
+
+        try:
+            print ("caling submission########################")
+            self.myseleniumParger.submitTheForm()
+            print (self.myseleniumParger.getOutput())
+        except:
+            logger.getLogger(__name__).debug('SUBMISSION FAILED!')
+
                                
                
     def __prepareSearchSetup(self,config,selinum_parger):        
@@ -93,4 +100,4 @@ class SeleniumBroker:
                     
                                                     
     def __prepareOutput(self,fileds,selinum_parger):
-        print (output_area(fileds,selinum_parger).process())    
+        output_area(fileds,selinum_parger).process()    

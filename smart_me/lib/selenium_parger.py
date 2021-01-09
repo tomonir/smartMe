@@ -10,7 +10,9 @@ class SeleniumParger:
         self.driver = webdriver.Firefox()
         self.driver.implicitly_wait(10)
         #pass
-
+    def __del__(self):
+        self.driver.close()
+        
     def setUrl(self,url):
         self.url    = url
         self.driver.get(self.url)

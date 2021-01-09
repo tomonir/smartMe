@@ -46,8 +46,10 @@ class output_area(Command):
 class SeleniumBroker:
     def __init__(self):
         self.myseleniumParger = SeleniumParger()
-        
-    
+         
+    def __del__(self):
+        del self.myseleniumParger
+
     def getSearchOutput(self,config):
         #print config
         url=config["url"]

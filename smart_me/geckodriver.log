@@ -7,3 +7,9 @@ TimedPromise/<@chrome://marionette/content/sync.js:245:13
 TimedPromise@chrome://marionette/content/sync.js:230:10
 interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
 webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1610189732081	Marionette	INFO	Stopped listening on port 46563
+1610190774678	geckodriver	INFO	Listening on 127.0.0.1:48619
+1610190774687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKPy9Y9"
+1610190779395	Marionette	INFO	Listening on port 39577
+1610190779430	Marionette	WARN	TLS certificate errors will be ignored for this session
+1610190793395	Marionette	INFO	Stopped listening on port 39577

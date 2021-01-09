@@ -13,11 +13,12 @@ class JobAlert(Task):
             self.configHandler = AgentConfigHandler("./agents/jobs")
         else:
             self.configHandler = AgentConfigHandler("./agents/jobs",config)
-        self.seleniumBroker= SeleniumBroker()
-        
+  
     def execute(self):
         for config in  self.configHandler.getJobsConfig():
-            self.seleniumBroker.getSearchOutput(config)
+            seleniumBroker = SeleniumBroker()
+            seleniumBroker.getSearchOutput(config)
+            del seleniumBroker
         self.logger.getLogger(__name__).debug('Job alert is executing')
         
     def __config(self):
